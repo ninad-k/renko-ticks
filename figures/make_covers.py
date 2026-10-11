@@ -35,14 +35,14 @@ HILITE = "#D98E04"
 TITLES = {
     1: "A Brick Engine That Cannot Repaint",
     2: "What a Renko Backtest Hides",
-    3: "Measuring the Edge in Brick Runs",
+    3: "Do Renko Bricks Have Memory? A Random-Walk Test",
     4: "Making a Renko EA Pass Automatic Validation",
 }
 SERIES = "Tick-Driven Renko in MQL5"
 BREAKS = {
     1: ["A Brick Engine That", "Cannot Repaint"],
     2: ["What a Renko", "Backtest Hides"],
-    3: ["Measuring the Edge", "in Brick Runs"],
+    3: ["Do Renko Bricks Have Memory?", "A Random-Walk Test"],
     4: ["Making a Renko EA Pass", "Automatic Validation"],
 }
 for _n, _t in TITLES.items():
@@ -148,7 +148,7 @@ def draw_cover(n):
     ax.text(72, 560, f"{SERIES} · Part {n}", color=FORM, fontsize=15.5, ha="left", va="center")
     ax.add_patch(Rectangle((72, 516), 56, 4, facecolor=HILITE, edgecolor="none"))
     lines = BREAKS[n]
-    fs = 50
+    fs = 50 if max(len(s) for s in lines) <= 26 else 44
     y = 478
     for ln in lines:
         ax.text(70, y, ln, color="white", fontsize=fs, fontweight="bold", ha="left", va="top")

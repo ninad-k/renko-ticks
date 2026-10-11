@@ -1,5 +1,6 @@
 //+------------------------------------------------------------------+
 //|                                                  RenkoEngine.mqh |
+//|                                          Copyright 2026, Ninad K |
 //|  Tick-driven Renko brick builder. Source-agnostic: feed it live  |
 //|  MqlTicks, terminal tick history, or ticks parsed from a file.   |
 //|                                                                  |

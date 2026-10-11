@@ -1,5 +1,6 @@
 //+------------------------------------------------------------------+
 //|                                     RenkoTickContinuationEA.mq5  |
+//|                                          Copyright 2026, Ninad K |
 //|  Renko continuation strategy on tick-driven bricks, written to   |
 //|  run unchanged on any symbol and timeframe.                      |
 //|                                                                  |
@@ -50,7 +51,7 @@
 //|   future performance.                                            |
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2026, Ninad K"
-#property link      "https://www.mql5.com"
+#property link      "https://www.mql5.com/en/users/nkulkarni"
 #property version   "1.00"
 #property description "Trades the continuation of tick-driven Renko bricks, with a stop two bricks away. The brick size is a fraction of the daily ATR, so the same settings fit any symbol."
 

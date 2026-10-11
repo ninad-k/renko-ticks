@@ -1,11 +1,14 @@
 //+------------------------------------------------------------------+
 //|                                            RenkoEngineTests.mq5  |
+//|                                          Copyright 2026, Ninad K |
 //|  Unit tests for Include\Renko\RenkoEngine.mqh.                   |
 //|  Ten cases. Feeds hand-made tick sequences and checks every     |
 //|  brick against values worked out on paper. Run on any chart;     |
 //|  results go to the Experts tab. Summary line:                    |
 //|  "RenkoEngineTests: N passed, M failed" (N counts checks).       |
 //+------------------------------------------------------------------+
+#property copyright "Copyright 2026, Ninad K"
+#property link      "https://www.mql5.com/en/users/nkulkarni"
 #property version     "1.00"
 #property description "Unit tests for the tick-driven Renko engine (RenkoEngine.mqh)."
 

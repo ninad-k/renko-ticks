@@ -1,5 +1,6 @@
 //+------------------------------------------------------------------+
 //|                                                   RenkoSweep.mq5 |
+//|                                          Copyright 2026, Ninad K |
 //|  Brick-size sweep over raw tick data, one pass, all sizes at once |
 //|                                                                  |
 //|  Tick source                                                     |
@@ -17,6 +18,8 @@
 //|   <prefix>_bricks.csv  : every brick of InpDumpBrick (optional)  |
 //+------------------------------------------------------------------+
 #property script_show_inputs
+#property copyright "Copyright 2026, Ninad K"
+#property link      "https://www.mql5.com/en/users/nkulkarni"
 #property version   "1.00"
 #property description "Renko brick-size sweep on tick data: cost, edge and net per brick size."
 

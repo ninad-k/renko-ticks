@@ -1,5 +1,6 @@
 //+------------------------------------------------------------------+
 //|                                                   RenkoSweep.mqh |
+//|                                          Copyright 2026, Ninad K |
 //|  One CSweepSlot = one brick size under test. Each slot owns a    |
 //|  CRenkoEngine and accumulates, per calendar year and in total:   |
 //|                                                                  |

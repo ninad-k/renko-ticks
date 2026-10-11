@@ -1,4 +1,4 @@
-"""Figures for Part 3: Measuring the Edge in Brick Runs.
+"""Figures for Part 3: Do Renko Bricks Have Memory? A Random-Walk Test.
 
 Run:  python make_ep03.py   (writes figures/ep03/*.png, 750 px wide, STYLE.md colours)
 Reads results/ep03/*.csv. Nothing is re-simulated.

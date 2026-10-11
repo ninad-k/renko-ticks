@@ -9,7 +9,7 @@ random walk.
 |---|---|---|---|
 | 1 | A Brick Engine That Cannot Repaint | `ep01` | `RenkoEngine.mqh`, `RenkoEngineTests.mq5` (10 hand-computed cases) |
 | 2 | What a Renko Backtest Hides | `ep02` | `RenkoSweep.mq5/.mqh`, `TickCsvReader.mqh`, cost results |
-| 3 | Measuring the Edge in Brick Runs | `ep03` | run-length results vs the random-walk mean of 3.0 |
+| 3 | Do Renko Bricks Have Memory? A Random-Walk Test | `ep03` | run-length results vs the random-walk mean of 3.0 |
 | 4 | Making a Renko EA Pass Automatic Validation | `ep04` | `RenkoTickContinuationEA.mq5`, `MarketSafe.mqh` |
 
 ## Layout

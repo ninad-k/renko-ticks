@@ -1,5 +1,6 @@
 //+------------------------------------------------------------------+
 //|                                                TickCsvReader.mqh |
+//|                                          Copyright 2026, Ninad K |
 //|  Fast reader for multi-GB tick CSVs (QuantDataManager exports).  |
 //|  Reads the file in large binary chunks and parses bytes by hand; |
 //|  FileReadString() is far too slow for ~650M rows.                |
