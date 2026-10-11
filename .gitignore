@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+*.ex5
+data/
+results/dump_xauusd/
+results/unfiltered/
+results/ep02/*.parquet
+results/wide_spread_ticks.parquet
+results/*.log
+results/**/*.log
+.cache/
