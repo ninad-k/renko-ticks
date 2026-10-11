@@ -1,0 +1,8 @@
+[WARNING] MQL5\Experts\Renko\RenkoContinuationEA_V1.mq5:130  icustom-resource: iCustom without a '::' resource path. Buyers will not have your indicator file: embed it with #resource "\\Indicators\\X.ex5" and call iCustom(..., "::Indicators\\X.ex5", ...).
+[WARNING] MQL5\Experts\Renko\RenkoContinuationEA_V1.mq5:322  margin-check: Orders are sent but no margin check was found (OrderCalcMargin/OrderCheck). Validation tests with tiny deposits and fails on 'not enough money'.
+[INFO   ] MQL5\Experts\Renko\RenkoContinuationEA_V1.mq5:1  property-link: Consider #property link; it is shown to users when the program starts.
+[INFO   ] MQL5\Experts\Renko\RenkoContinuationEA_V1.mq5:135  tester-behaviour: Tester detection found. Make sure the EA does not trade differently in the tester than live; results that cannot be reproduced live look misleading.
+[INFO   ] MQL5\Experts\Renko\RenkoContinuationEA_V1.mq5:142  tester-behaviour: Tester detection found. Make sure the EA does not trade differently in the tester than live; results that cannot be reproduced live look misleading.
+[INFO   ] MQL5\Experts\Renko\RenkoContinuationEA_V1.mq5:322  trade-mode: Consider checking SYMBOL_TRADE_MODE before trading (disabled, close-only, long-only symbols).
+
+1 file(s) scanned: 0 error(s), 2 warning(s). NEEDS REVIEW - check warnings
