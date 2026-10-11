@@ -1,0 +1,56 @@
+# Part 3 facts (computed by python/analyze.py)
+
+- Random-walk baseline: P(continue)=2/3, mean run 3.0, sd 2.449; 25 sizes tested -> Bonferroni |z| > 3.09 (two-sided 5%).
+- 0.05xATR: runs 96,036, mean 3.080 +/- 0.016 (2 SE), z +10.15, run1/2/3 = 33.1/21.8/14.4% (expected 33.3/22.2/14.8)
+- 0.10xATR: runs 25,290, mean 2.976 +/- 0.031 (2 SE), z -1.57, run1/2/3 = 33.6/22.7/14.2% (expected 33.3/22.2/14.8)
+- 0.15xATR: runs 11,388, mean 2.936 +/- 0.046 (2 SE), z -2.78, run1/2/3 = 34.7/22.9/14.2% (expected 33.3/22.2/14.8)
+- 0.20xATR: runs 6,394, mean 2.914 +/- 0.061 (2 SE), z -2.80, run1/2/3 = 36.0/22.0/14.0% (expected 33.3/22.2/14.8)
+- 0.30xATR: runs 2,688, mean 3.036 +/- 0.094 (2 SE), z +0.76, run1/2/3 = 32.8/23.6/14.1% (expected 33.3/22.2/14.8)
+- 0.40xATR: runs 1,496, mean 3.068 +/- 0.127 (2 SE), z +1.08, run1/2/3 = 33.8/21.3/14.9% (expected 33.3/22.2/14.8)
+- 0.50xATR: runs 935, mean 3.138 +/- 0.160 (2 SE), z +1.72, run1/2/3 = 32.1/22.9/13.4% (expected 33.3/22.2/14.8)
+- 0.75xATR: runs 417, mean 3.247 +/- 0.240 (2 SE), z +2.06, run1/2/3 = 32.4/20.9/12.5% (expected 33.3/22.2/14.8)
+- 1.00xATR: runs 213, mean 3.559 +/- 0.336 (2 SE), z +3.33, run1/2/3 = 26.8/17.8/16.4% (expected 33.3/22.2/14.8)
+- $0.50: runs 1,020,953, mean 3.555 +/- 0.005 (2 SE), z +229.02, run1/2/3 = 29.3/20.4/14.3% (expected 33.3/22.2/14.8)
+- $1.00: runs 308,952, mean 3.308 +/- 0.009 (2 SE), z +69.82, run1/2/3 = 30.7/21.3/14.6% (expected 33.3/22.2/14.8)
+- $2.00: runs 87,223, mean 3.137 +/- 0.017 (2 SE), z +16.57, run1/2/3 = 32.4/21.7/14.8% (expected 33.3/22.2/14.8)
+- $3.00: runs 39,996, mean 3.105 +/- 0.024 (2 SE), z +8.61, run1/2/3 = 32.8/21.6/14.7% (expected 33.3/22.2/14.8)
+- $4.00: runs 22,822, mean 3.095 +/- 0.032 (2 SE), z +5.87, run1/2/3 = 33.0/21.4/14.5% (expected 33.3/22.2/14.8)
+- $5.00: runs 14,739, mean 3.096 +/- 0.040 (2 SE), z +4.78, run1/2/3 = 32.5/21.6/15.1% (expected 33.3/22.2/14.8)
+- $6.00: runs 10,285, mean 3.105 +/- 0.048 (2 SE), z +4.36, run1/2/3 = 32.2/21.8/14.8% (expected 33.3/22.2/14.8)
+- $8.00: runs 5,899, mean 3.089 +/- 0.064 (2 SE), z +2.78, run1/2/3 = 32.1/21.9/15.0% (expected 33.3/22.2/14.8)
+- $10.00: runs 3,720, mean 3.113 +/- 0.080 (2 SE), z +2.82, run1/2/3 = 31.9/22.3/15.0% (expected 33.3/22.2/14.8)
+- $12.00: runs 2,656, mean 3.076 +/- 0.095 (2 SE), z +1.60, run1/2/3 = 33.0/22.1/14.8% (expected 33.3/22.2/14.8)
+- $15.00: runs 1,695, mean 3.109 +/- 0.119 (2 SE), z +1.83, run1/2/3 = 33.5/21.9/13.0% (expected 33.3/22.2/14.8)
+- $20.00: runs 938, mean 3.145 +/- 0.160 (2 SE), z +1.81, run1/2/3 = 33.4/20.4/14.4% (expected 33.3/22.2/14.8)
+- $25.00: runs 603, mean 3.196 +/- 0.200 (2 SE), z +1.96, run1/2/3 = 31.8/19.6/15.4% (expected 33.3/22.2/14.8)
+- $30.00: runs 424, mean 3.191 +/- 0.238 (2 SE), z +1.61, run1/2/3 = 31.8/22.4/12.7% (expected 33.3/22.2/14.8)
+- $40.00: runs 231, mean 3.320 +/- 0.322 (2 SE), z +1.99, run1/2/3 = 31.6/22.5/10.8% (expected 33.3/22.2/14.8)
+- $50.00: runs 145, mean 3.428 +/- 0.407 (2 SE), z +2.10, run1/2/3 = 26.2/23.4/16.6% (expected 33.3/22.2/14.8)
+- fixed_2 up runs 43,611 mean 3.155; down runs 43,612 mean 3.120; mean with phantom bricks removed 3.051
+- fixed_5 up runs 7,369 mean 3.139; down runs 7,370 mean 3.054; mean with phantom bricks removed 3.048
+- fixed_10 up runs 1,860 mean 3.197; down runs 1,860 mean 3.030; mean with phantom bricks removed 3.085
+- fixed_20 up runs 469 mean 3.307; down runs 469 mean 2.983; mean with phantom bricks removed 3.129
+- fixed_50 up runs 73 mean 3.863; down runs 72 mean 2.986; mean with phantom bricks removed 3.428
+- atr_0.10 up runs 12,645 mean 3.017; down runs 12,645 mean 2.935; mean with phantom bricks removed 2.845
+- atr_0.20 up runs 3,197 mean 2.995; down runs 3,197 mean 2.834; mean with phantom bricks removed 2.861
+- atr_0.30 up runs 1,344 mean 3.164; down runs 1,344 mean 2.908; mean with phantom bricks removed 3.001
+- atr_0.50 up runs 468 mean 3.363; down runs 467 mean 2.912; mean with phantom bricks removed 3.123
+- atr_1.00 up runs 107 mean 4.028; down runs 106 mean 3.085; mean with phantom bricks removed 3.554
+- EURUSD 0.05xApr-range ($0.00033): runs 2163, mean 2.994, z -0.12, A theo -0 net -0.29
+- EURUSD 0.10xApr-range ($0.00066): runs 518, mean 3.048, z +0.45, A theo +0.02 net -0.07
+- EURUSD 0.15xApr-range ($0.00099): runs 227, mean 3.154, z +0.95, A theo +0.03 net -0
+- EURUSD 0.20xApr-range ($0.00132): runs 141, mean 2.950, z -0.24, A theo -0.01 net -0.03
+- EURUSD 0.30xApr-range ($0.00198): runs 66, mean 2.682, z -1.06, A theo -0.04 net -0.06
+- EURUSD 0.40xApr-range ($0.00264): runs 34, mean 2.853, z -0.35, A theo -0.01 net -0.03
+- EURUSD 0.50xApr-range ($0.0033): runs 17, mean 3.235, z +0.40, A theo +0.01 net +0.01
+- EURUSD 0.75xApr-range ($0.00495): runs 7, mean 2.714, z -0.31, A theo -0.01 net -0.01
+- EURUSD 1.00xApr-range ($0.0066): runs 2, mean 4.500, z +0.87, A theo +0.02 net +0.02
+- US500 0.05xApr-range ($4.35): runs 2987, mean 3.099, z +2.21, A theo +1288 net -1183
+- US500 0.10xApr-range ($8.70): runs 804, mean 2.933, z -0.78, A theo -469.8 net -1278
+- US500 0.15xApr-range ($13.05): runs 346, mean 3.017, z +0.13, A theo +78.3 net -488.9
+- US500 0.20xApr-range ($17.41): runs 188, mean 3.005, z +0.03, A theo +17.41 net -299.5
+- US500 0.30xApr-range ($26.11): runs 88, mean 2.875, z -0.48, A theo -287.2 net -388.2
+- US500 0.40xApr-range ($34.81): runs 51, mean 2.765, z -0.69, A theo -417.7 net -471.1
+- US500 0.50xApr-range ($43.52): runs 37, mean 2.432, z -1.41, A theo -913.9 net -934.6
+- US500 0.75xApr-range ($65.27): runs 14, mean 2.786, z -0.33, A theo -195.8 net -201.9
+- US500 1.00xApr-range ($87.03): runs 8, mean 2.375, z -0.72, A theo -435.1 net -441.3
